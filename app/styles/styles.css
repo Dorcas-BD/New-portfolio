@@ -216,12 +216,12 @@ a {
 .about-container .tab-titles::after {
   content: "";
   width: 100%;
-  height: 2px; /* Adjust the shadow height as needed */
-  position: absolute;
+  height: 2px;
+  /position: absolute;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.1); /* Shadow color */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Actual box shadow */
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .about-container .tab-title {
@@ -377,7 +377,7 @@ a {
 }
 
 .contact__textarea {
-  height: 150px; /* Set the initial height of the textarea */
+  height: 150px;
 }
 
 .contact__input[type="button"] {
@@ -553,8 +553,6 @@ a {
   .about-container .image {
     width: 250px;
     height: 250px;
-
-    /* border: 5px solid #ab400f; */
   }
   .about-container .image img {
     bottom: 10px;
