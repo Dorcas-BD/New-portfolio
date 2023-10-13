@@ -320,7 +320,7 @@ a {
   background-color: #ab400f;
 }
 
-/* COntacts */
+/* Contacts */
 
 .contact__container {
   display: flex;
@@ -340,18 +340,15 @@ a {
   margin-bottom: 20px;
   display: flex;
   font-size: 28px;
-  font-weight: 600;
 }
 
 .contact__data .contact__subtitle {
   font-size: 28px;
-  font-weight: 600;
   margin-bottom: 5px;
 }
 
 .contact__data .contact__description {
   padding-left: 10px;
-  font-weight: 500;
 }
 
 .contact__form {
@@ -387,7 +384,7 @@ a {
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  font-size: 1.1em;
+  font-size: 1;
 }
 
 .contact__input[type="button"]:hover {
@@ -560,6 +557,10 @@ a {
 
   .about-container .tab-titles {
     top: 20px;
+  }
+
+  .about-container .tab-title {
+    font-size: 24px;
   }
 
   .about-container .tab-content {
