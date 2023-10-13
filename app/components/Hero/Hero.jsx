@@ -1,8 +1,39 @@
 import React from "react";
+import "../../styles/styles.css";
+import Link from "next/link";
+import "@fortawesome/fontawesome-free/css/all.css";
 
 const Hero = () => {
   return (
     <section className="home">
+      <div className="home-data">
+        <div className="hero-text">
+          <h1 className="home-heading">
+            Hello, I'm <span className="title-color">Dorcas Bamisile</span>
+            <br />I am a Software Engineer
+          </h1>
+
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Perferendis nulla, ipsa id at illum exercitationem voluptatibus
+            recusandae molestias expedita quod! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Voluptatem, veritatis! Lorem, ipsum
+            dolor sit amet consectetur adipisicing elit. Quod eveniet est
+            deleniti sed! Soluta, eveniet dolorem officiis ratione vero
+            incidunt. <span className="circle-animation"></span>
+          </p>
+
+          <div className="hie-btn">
+            <Link href="#contacts" className="hire-btn">
+              Hire Me
+            </Link>
+          </div>
+        </div>
+        <div class="home-img">
+          <div className="computer-animation"></div>
+          <img className="hero-img" x="50" y="60" src="/perfil.png" />
+        </div>
+      </div>
       <div className="home-social">
         <a
           href="https://www.linkedin.com/in/dorcasbamisile"
@@ -25,18 +56,6 @@ const Hero = () => {
         >
           <i className="fab fa-github"></i>
         </a>
-      </div>
-      <div className="home-data">
-        <h1 className="home-title">
-          Hello,
-          <br />
-          I'm <span className="title-color">Dorcas Bamisile</span>
-          <br />
-          Software Developer
-        </h1>
-      </div>
-      <div class="home-img">
-        <img class="img" x="50" y="60" src="/perfil.png" />
       </div>
     </section>
   );

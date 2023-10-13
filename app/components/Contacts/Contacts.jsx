@@ -2,18 +2,20 @@ const Contacts = () => {
   return (
     <section className="contact section" id="contact">
       <h2 className="section-title">Contact</h2>
-      <div className="contact__container bd-grid">
+      <div className="contact__container">
         <div className="contact__data">
           {[
             {
-              title: "Email",
+              title: "Email:",
               description: "bamisiledorcas@gmail.com",
-              icon: "ri-mail-line",
             },
             {
-              title: "Phone Number",
-              description: "+234 705 725 8425",
-              icon: "ri-phone-line",
+              title: "Email:",
+              description: "bamisiledorcas@outlook.com",
+            },
+            {
+              title: "Phone Number:",
+              description: "+2347057258425",
             },
           ].map((item, index) => (
             <div key={index} className="contact__information">
@@ -45,7 +47,7 @@ const Contacts = () => {
           <input
             type="button"
             value="Send Message"
-            className="contact__button button"
+            className="contact__input button"
           />
         </form>
       </div>

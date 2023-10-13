@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="footer">
-      <p className="footer__title">Dorcas B.</p>
+      <p className="footer__title">Dorcas Bamisile</p>
       <div className="footer__social">
         <a
           target="_blank"
@@ -25,7 +25,7 @@ const Footer = () => {
           <i className="fab fa-twitter"></i>
         </a>
       </div>
-      <p className="footer__copy">Dorcas Bamisile &copy; 2022</p>
+      <p className="footer__copy">Dorcas Bamisile &copy; 2023</p>
     </footer>
   );
 };
